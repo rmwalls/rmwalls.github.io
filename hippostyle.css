@@ -1,39 +1,16 @@
+/* I read somewhere that the code starting at line 3 is good to put in all your css. Not sure it's true */
+
 *, *:before, *:after {
    box-sizing: border-box;
    }
 
-/* code for nav buttons, uncomment if wanted
-.topnav {
-   overflow: hidden;
-   border: 4px solid #cccccc;
-   background-color: #333;
- }
- 
- .topnav a {
-   float: right;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
- }
- 
- .topnav a:hover {
-   background-color: #ddd;
-   color: black;
- }
- 
- .topnav a.active {
-   background-color: #4CAF50;
-   color: white;
- }
-*/
-
+/* Wrap the page */   
 .container {
    width: 1024px;
    margin: 0 auto;
 }
 
+/* style my header */
 header {
    font-size: 28px; 
    color: #3c3c3c;
@@ -44,11 +21,13 @@ header {
    text-align: center;
 }
 
+/* set body font and color */
 body {
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    color: #080606;
 }
 
+/* set my head tags. Might use h2 later. */
 h1, h2, h3 {
    font-family: "Arial Black", "Times New Roman", Times, serif;
    font-weight: bold;
@@ -64,6 +43,7 @@ h3 {
    padding-left: 4px;
 }
 
+/* style the Sandburg quote */
 blockquote {
     font-style: italic;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -80,11 +60,13 @@ blockquote.b {
     text-align: right;
 }
 
+/* style my list */
 ul {
    font-size: 16px;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+/* move my paragraphs over a little */
 p {
    padding-left: 4px;
 }
@@ -111,6 +93,7 @@ div.desc {
 }
 /* End thumbnails */
 
+/* center the dang images the way I want them */
 .gallerysection {
   display: flex;
   flex-wrap: wrap;
