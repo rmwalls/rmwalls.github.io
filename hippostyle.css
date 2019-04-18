@@ -2,7 +2,7 @@
    box-sizing: border-box;
    }
 
-/* code for nav buttons if wanted
+/* code for nav buttons, uncomment if wanted
 .topnav {
    overflow: hidden;
    border: 4px solid #cccccc;
@@ -29,6 +29,10 @@
  }
 */
 
+.container {
+   width: 1024px;
+   margin: 0 auto;
+}
 
 header {
    font-size: 28px; 
@@ -38,11 +42,6 @@ header {
    padding: 4px;
    margin-bottom: 10px;
    text-align: center;
-}
-
-.container {
-   width: 1024px;
-   margin: 0 auto;
 }
 
 body {
@@ -57,20 +56,23 @@ h1, h2, h3 {
 
 h2 {
    font-size: 24px;
+   padding-left: 4px;
 }
 
 h3 {
    font-size: 22px;
+   padding-left: 4px;
 }
 
 blockquote {
     font-style: italic;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 20px;
-    padding: 6px;
+    padding: 6px 6px 0px 6px;
 }
 
-blockquote b {
+/* put the 2nd quote on the right */
+blockquote.b {
     font-style: italic;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 20px;
@@ -78,31 +80,37 @@ blockquote b {
     text-align: right;
 }
 
-
-main {
-   color: teal;
-   font-size: 18px;
-   border: 4px solid #cccccc;
-   padding: 4px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-
-#intro {
-   float: left; 
-   padding: 6px;
-   width: 80%;
-   margin-top: 20px;
-}
-
-#no1 {
-   clear: both;
-   font-size: 16px;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   padding-top: 4px;
-}
-
 ul {
    font-size: 16px;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+p {
+   padding-left: 4px;
+}
+
+/* For the thumbnails Got the start for this code at https://www.w3schools.com/css/css_image_gallery.asp */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* End thumbnails */
+
+
+
