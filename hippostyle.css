@@ -93,7 +93,6 @@ p {
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
   width: 180px;
 }
 
@@ -112,5 +111,10 @@ div.desc {
 }
 /* End thumbnails */
 
+.gallerysection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
