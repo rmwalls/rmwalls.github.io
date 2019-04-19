@@ -14,7 +14,7 @@
 header {
    font-size: 28px; 
    color: #3c3c3c;
-   background-image: url("assets/images/hippo-skin.gif");
+   background-image: url("../images/hippo-skin.gif");
    border: 4px solid #cccccc;
    padding: 4px;
    margin-bottom: 10px;
@@ -78,8 +78,8 @@ div.gallery {
   width: 180px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+div.gallery:hover { 
+  border: 1px solid #3c3c3c;
 }
 
 div.gallery img {
