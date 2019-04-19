@@ -23,6 +23,8 @@
    color: black;
  }
  
+/* css file for 4/20/19 homework assignment. Portfolio. */
+
  .topnav a.active {
    background-color: #4CAF50;
    color: white;
@@ -30,6 +32,7 @@
 
    /* Need to change this to homework specifications before turning in */
 header {
+   font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 28px; 
    text-shadow: 2px 2px gray;  
    color: teal;
@@ -66,6 +69,7 @@ h3 {
    font-size: 22px;
 }
 
+/* For index.html file */
 #headshot {
    float: left;
    margin-right: 4px;
@@ -74,6 +78,7 @@ h3 {
    width: 17.6%;
 }
 
+/* for contact.html */
 main {
    color: teal;
    font-size: 18px;
@@ -83,6 +88,7 @@ main {
    margin-bottom: 10px;
 }
 
+/* For index.html file */
 #intro {
    float: left; 
    padding: 6px;
@@ -90,6 +96,7 @@ main {
    margin-top: 20px;
 }
 
+/* For index.html file */
 #no1 {
    clear: both;
    font-size: 16px;
