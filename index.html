@@ -1,57 +1,116 @@
-<!-- Homework assignment for 4/20/19 
-Files include: index.html, portfolio.html, contact.html, style.css 
-DONE -->
-
 <!DOCTYPE html>
+<!--Week 2 Homework - Bootstrap version 
+how can i use my background image with bootstrap. others are below  
+DONE -->
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>About Robbi Walls</title>       
-</head>
-    <body>
-         <div class="container">
-        
-            <div class="topnav">
-                <a class="active" href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        
-            <header>
-                <h1>About Robbi Walls</h1>
-            </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Bootstrap Portfolio</title>
+  </head>
+  <body>
+    <div class="container"> <!-- contain the page sans footer -->
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-            <img id="headshot" src="assets/images/RMWalls2.jpg" alt="Headshot of Robbi">
-
-            <p id="intro">Lorem ipsum dolor amet jean shorts heirloom hashtag humblebrag live-edge art party intelligentsia meditation try-hard banh mi. 
-            Blue bottle stumptown slow-carb disrupt polaroid viral. Mumblecore polaroid aesthetic lomo YOLO, irony la croix. Brooklyn leggings photo booth hammock keffiyeh gastropub
-            selfies, pug gluten-free meditation subway tile seitan farm-to-table chia mlkshk.
-            </p>
-
-            <br>
-
-            <p id="no1">I've studied at these fantastic schools:</p>
-            <ul>
-                <li> University of North Carolina at Chapel Hill</li>
-                <li> George Washington University</li>
-                <li> Central Piedmont Community College</li> 
-                <li> University of North Carolina at Charlotte</li>
-            </ul>
-
-            <p>Pug migas copper mug before they sold out mumblecore four loko fingerstache, asymmetrical seitan heirloom pabst echo park humblebrag banh mi brunch. 
-            Lomo fingerstache hell of whatever succulents before they sold out. Brooklyn leggings photo booth hammock keffiyeh gastropub selfies, pug gluten-free 
-            meditation subway tile seitan farm-to-table chia mlkshk.
-            </p>
-
-            <h2>My Family</h2>
-
-            <p>Kinfolk portland before they sold out asymmetrical lyft, pour-over shaman. Tumeric succulents +1, woke organic echo park food truck chillwave 
-            literally helvetica heirloom shoreditch messenger bag.
-            </p>
-
-            <img class="fam" src="assets/images/LolaandBitsy3.jpg" alt="My dogs, Lola and Bitsy">
-            <img class="fam" src="assets/images/20laughingS.jpg" alt="Me, husband and dogs">
+      <div class="row">
+        <div class="col-md-12">
+          
+            <h1>About Me - Robbi Walls</h1>
+          
+        </div>
       </div>
-    </body>
+      <div class="row">
+        <div class="col-md-2">
+          <img src="assets/images/RMWalls2.jpg" alt="Headshot of Robbi" class="img-thumbnail">
+        </div>
+        <div class="col-md-8">
+          <p>
+            I first learned HTML in the waning days of the text-based web and the dawn of Netscape and the graphical interface. 
+            As a volunteer with the community network, Charlotte's Web, I was the "webmaster" for a Jobs postings page and the very first web site of
+            Discovery Place. These pages and more were maintained and hosted at no charge. As one of the first 100,000 members of AOL, I became fascinated with all things WEB.<br>
+            At IBM I participated in development of one of the early banking applications and customized sets of pages for Bank of America, Washington Mutual Bank 
+            and Michigan National Bank.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5">
+          <p>
+            Through the years, I've studied at these fantastic schools:
+            <ul>
+              <li> University of North Carolina at Chapel Hill</li>
+              <li> George Washington University</li>
+              <li> Central Piedmont Community College</li> 
+              <li> University of North Carolina at Charlotte</li>
+            </ul>
+          </p> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>My Family</h2>
+          <p>The step-children are grown and out of the house. Now it's me, my husband, Scott, and our 2 dogs and 2 cats. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+  <!-- How do I make this a little smaller and aligned center?-->
+          <figure class="figure">
+            <img src="assets/images/20laughingS.jpg" class="figure-img img-fluid rounded" alt="Me, Scott and the dogs">
+            <figcaption class="figure-caption text-right">Me with Lola, Scott with Bitsy</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="assets/images/Eddie.jpg" class="figure-img img-fluid rounded" alt="Eddie the cat">
+            <figcaption class="figure-caption text-right">Eddie and his sister...</figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="assets/images/Shadow.jpg" class="figure-img img-fluid rounded" alt="Eddie's sister, Shadow">
+            <figcaption class="figure-caption text-right">Shadow</figcaption>
+          </figure>
+        </div>        
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="assets/images/LolaandBitsy3.jpg" class="figure-img img-fluid rounded" alt="Lola and Bitsy, the dogs">
+            <figcaption class="figure-caption text-right">Bitsy as a little pup with Lola</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- sticky footer code -->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">Copywrite &copy; 2019</span>
+      </div>
+    </footer>
+    <!-- making the hamburger work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
