@@ -3,98 +3,75 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="assets/css/portfolioStyle.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
         <title>Portfolio of Robbi Walls</title>
     </head>
-    <body>
+ <body>
         <div class="container"> 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    	<span class="navbar-toggler-icon"></span>
+                	</button>
+                	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    	<ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a></li>
+                    	</ul>
+                	</div>
+            	</nav> <!--end nav bar-->
             <div class="row">  <!-- first row after navbar -->
                 <div class="col-md-12">
                     <h1>Portfolio</h1>
                 </div>
             </div>
-            <div class="row"> <!-- row with sub-rows -->
-                <div class="col-md-4">
-                    <!-- Sub Row 1 -->
-                    <div class="row">
-                        <div class="col-md-12"> <!-- this sub-row's first column -->
-                                <figure class="figure">
-                                    <a href="hippo.html">
-                                        <img src="assets/images/hippos2.jpg" class="figure-img img-fluid rounded" alt="2 Hippos">
-                                    </a>
-                                    <figcaption class="figure-caption text-right">The Hippo Page</figcaption>
-                                </figure>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="col-md-4">  <!-- this row's second column -->
-                    <figure class="figure">
-                        <a href="https://rmwalls.github.io/Psychic-Game/">
-                        <img src="assets/images/psychic.gif" class="figure-img img-fluid rounded" alt="Psychic image">
-                        </a>
-                        <figcaption class="figure-caption text-right">Psychic Game</figcaption>
-                    </figure>
-                </div>
-            
-                <div class="col-md-4"> <!-- this row's 3rd column -->
-                    <figure class="figure">
-                        <a href="https://rmwalls.github.io/unit-4-game/">
-                        <img src="assets/images/bitcoin.jpg" class="figure-img img-fluid rounded" alt="Bitcoin image">
-                        </a>
-                        <figcaption class="figure-caption text-right">Bitcoin Collector Game</figcaption>
-                    </figure>
-                </div>
-                
-            </div>
-    <!-- Sub Row 2 -->
-    <div class="row">
-            <div class="col-md-4">  <!-- this sub-row's first column -->
-                <figure class="figure">
-                    <a href="https://rmwalls.github.io/Trivia-Game/">
-                        <img src="assets/images/www.jpg" class="figure-img img-fluid rounded" alt="TriviaPalooza">
-                    </a>
-                    <figcaption class="figure-caption text-right">WebDev Trivia</figcaption>
-                </figure>
-            </div> 
-            <div class="col-md-4"> <!--second col of row 2-->
-                <figure class="figure">
-                    <a href="https://rmwalls.github.io/Using_an_API/">
-                        <img src="assets/images/aurora.jpg" class ="figure-img img-fluid rounded" alt="Giphy API">
-                    </a>
-                    <figcaption class="figure-caption text-right">Using the Giphy API</figcaption>
-                </figure>
-            </div>
+
+	<div class="gallerysection">
+        <div class="gallery">
+          <a href="hippo.html"><img src="assets/images/hippos2.jpg" alt="2 Hippos">
+          </a>
+          <div class="desc">The Hippo Page</div>
         </div>
+
+        <div class="gallery">
+          <a href="https://rmwalls.github.io/Psychic-Game/"><img src="assets/images/psychic.gif" alt="Psychic Image">
+          </a>
+          <div class="desc">Silly "Psychic" Game</div>
         </div>
-    
-        <!-- sticky footer code -->
-        <footer class="footer mt-auto py-3">
-            <div class="container">
-                <span class="text-muted">Copywrite &copy; 2019</span>
-            </div>
-        </footer>
-        <!-- making the hamburger work -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
-</html>
+
+        <div class="gallery">
+          <a href="https://rmwalls.github.io/unit-4-game/"><img src="assets/images/bitcoin.jpg" alt="Bitcoin image">
+          </a>
+          <div class="desc">Bitcoin Collector</div>
+        </div>
+
+        <div class="gallery">
+          <a href="https://rmwalls.github.io/Trivia-Game/"><img src="assets/images/www.jpg" alt="Triviapalooza">
+          </a>
+          <div class="desc">WebDev Trivia</div>
+        </div>
+
+        <div class="gallery">
+          <a href="https://rmwalls.github.io/Using_an_API/"><img src="assets/images/aurora.jpg" alt="Giphy API">
+          </a>
+          <div class="desc">Using the Giphy API</div>
+        </div>
+
+        
+      </div>
+    </div>
+	<!-- sticky footer code -->
+	<footer class="footer mt-auto py-3">
+  	<div class="container">
+  		<span class="text-muted">Copywrite &copy; 2019  Aardvark Computer Consulting (RWalls)</span>
+  	</div>
+	</footer>
+	</div> <!--end container-->
