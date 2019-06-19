@@ -2,7 +2,6 @@
    box-sizing: border-box;
 }
 
-
 body {
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    background-image: url("../images/spiration-light.png");
@@ -15,5 +14,7 @@ body {
    background-color: white;
 }
 
-
-
+.col-md-3 {
+   padding-right: 0;
+   max-width: 180px;;
+}
