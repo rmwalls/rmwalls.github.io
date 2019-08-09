@@ -1,3 +1,7 @@
+h2 {
+  margin: 96px;
+}
+
 /* For the thumbnails Got the start for this code at https://www.w3schools.com/css/css_image_gallery.asp */
 div.gallery {
   margin: 5px;
