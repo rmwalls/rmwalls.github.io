@@ -1,12 +1,16 @@
 h2 {
-  margin: 96px;
+  margin: 60px;
+}
+
+sup {
+  margin: 65px;
 }
 
 /* For the thumbnails Got the start for this code at https://www.w3schools.com/css/css_image_gallery.asp */
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  width: 180px;
+  width: 200px;
 }
 
 div.gallery:hover { 
