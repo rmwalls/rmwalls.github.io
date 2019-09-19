@@ -7,6 +7,10 @@ body {
   background-image: url("../images/spiration-light.png");
 }
 
+.info {
+  font-size: 12px;
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
